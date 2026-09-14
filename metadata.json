@@ -1,0 +1,6 @@
+{
+  "name": "Inspire Academy",
+  "description": "Inspire Academy, Simla, Baksa, Assam (Estb. 2019) — Senior Secondary Academy dedicated to Class XI & XII Science and Arts education with disciplined scholarship and accessible mentorship.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

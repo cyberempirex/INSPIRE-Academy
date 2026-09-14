@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    
+    /* RESTRAINED INSTITUTIONAL SCHOOL PALETTE */
+    /* Primary Navy — #0B2945 */
+    --color-navy: #0B2945;
+    --color-navy-dark: #06182C;
+    --color-navy-light: #163E66;
+    
+    /* Secondary Green — #16865A */
+    --color-green: #16865A;
+    --color-green-light: #1F9E6B;
+    --color-green-subtle: #E8F5EF;
+    
+    /* Accent Red — #C62832 */
+    --color-red: #C62832;
+    --color-red-subtle: #FDF0F1;
+    
+    /* Canvases & Surfaces */
+    --color-canvas: #FFFFFF;
+    --color-warm-canvas: #FAFAF7;
+    --color-light-surface: #F3F4F1;
+    --color-border: #E2E8F0;
+    --color-border-subtle: #EDF2F7;
+    
+    /* Typography Neutrals */
+    --color-body-text: #334155;
+    --color-muted-text: #64748B;
+    --color-heading-text: #0B2945;
+  }
+
+  body {
+    background-color: #FAFAF7;
+    color: #334155;
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .font-display {
+    font-family: var(--font-sans);
+    letter-spacing: -0.015em;
+  }
+
+  .font-mono-meta {
+    font-family: var(--font-mono);
+    letter-spacing: 0.02em;
+  }
+}
+
+/* Accessible focus ring */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid #0B2945;
+  outline-offset: 2px;
+}
+
+/* Crisp Institutional Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F3F4F1;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0B2945;
+}
